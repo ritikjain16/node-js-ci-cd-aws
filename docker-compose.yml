@@ -1,7 +1,8 @@
 version: "3.3"
 services:
   nodejs-ci-cd:
-    build: 
-      context: .
+    # build: 
+    #   context: .
+    image: "rj1608/nodejs-ci-cd-aws-app:latest"
     ports:
       - "5000:5000"
